@@ -132,8 +132,6 @@ function addMalEntry(malid, entry, anime, mapping) {
 	var params = {'data':xmlbody};
 	var postData = querystring.stringify(params);
 
-	return;
-
 	var req = https.request({
 		hostname: 'myanimelist.net',
 		port: 443,
